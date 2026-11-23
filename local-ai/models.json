@@ -1,0 +1,12 @@
+{
+  "updated": "2026-11-18",
+  "about": "The Local AI shelf (roadmap step 14). A copy ships with the add-on; a newer one is read from the public releases repository (local-ai/models.json) once a day while the app's checks are allowed. Sizes from Ollama's registry, licences from each maker's Hugging Face page, checked 2026-11-18. Keep it small: the basic model, a few good ones per card size, the search model; anything else comes in through Other model.",
+  "models": [
+    { "name": "qwen3.5:4b", "title": "Qwen 3.5 4B", "bytes": 3324173757, "what": "Text and pictures", "use": "helper", "basic": true, "licence": "Apache-2.0" },
+    { "name": "gemma4:12b", "title": "Gemma 4 12B", "bytes": 8021618699, "what": "Text and pictures · the cleverest that fits 12 GB", "use": "helper", "licence": "Apache-2.0" },
+    { "name": "qwen3.5:9b", "title": "Qwen 3.5 9B", "bytes": 6550825373, "what": "Text and pictures", "use": "helper", "licence": "Apache-2.0" },
+    { "name": "embeddinggemma-2:latest", "title": "EmbeddingGemma 2", "bytes": 1284852512, "what": "Search by meaning · text and pictures", "use": "search", "licence": "Apache-2.0" },
+    { "name": "qwen3.5:2b", "title": "Qwen 3.5 2B", "bytes": 2683396637, "what": "Text and pictures · for small PCs", "use": "helper", "licence": "Apache-2.0" },
+    { "name": "qwen3.5:27b", "title": "Qwen 3.5 27B", "bytes": 17478556413, "what": "Text and pictures · for big graphics cards", "use": "helper", "licence": "Apache-2.0" }
+  ]
+}
